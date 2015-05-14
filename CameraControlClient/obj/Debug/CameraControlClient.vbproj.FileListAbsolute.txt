@@ -1,0 +1,32 @@
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\bin\Debug\CameraControlClient.exe.config
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\bin\Debug\CameraControlClient.exe
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\bin\Debug\CameraControlClient.pdb
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\bin\Debug\CameraControlClient.xml
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\bin\Debug\CameraControl.dll
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\bin\Debug\CameraControl.pdb
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.vbprojResolveAssemblyReference.cache
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\obj\Debug\MainWindow.baml
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\obj\Debug\MainWindow.g.vb
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\obj\Debug\Application.g.vb
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient_MarkupCompile.cache
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.g.resources
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.Resources.resources
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.vbproj.GenerateResource.Cache
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.exe
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.xml
+c:\users\george\documents\visual studio 2013\Projects\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.pdb
+C:\Users\George\Documents\Visual Studio 2013\Projects\CameraControlClient\CameraControlClient\bin\Debug\ViscaLibrary.dll
+C:\git\CameraControlClient\CameraControlClient\bin\Debug\CameraControlClient.exe.config
+C:\git\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.exe
+C:\git\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.xml
+C:\git\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.pdb
+C:\git\CameraControlClient\CameraControlClient\bin\Debug\CameraControlClient.exe
+C:\git\CameraControlClient\CameraControlClient\bin\Debug\CameraControlClient.pdb
+C:\git\CameraControlClient\CameraControlClient\bin\Debug\CameraControlClient.xml
+C:\git\CameraControlClient\CameraControlClient\obj\Debug\MainWindow.baml
+C:\git\CameraControlClient\CameraControlClient\obj\Debug\MainWindow.g.vb
+C:\git\CameraControlClient\CameraControlClient\obj\Debug\Application.g.vb
+C:\git\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient_MarkupCompile.cache
+C:\git\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.g.resources
+C:\git\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.Resources.resources
+C:\git\CameraControlClient\CameraControlClient\obj\Debug\CameraControlClient.vbproj.GenerateResource.Cache
