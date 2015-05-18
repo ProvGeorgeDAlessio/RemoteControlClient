@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CameraControlClient", "CameraControlClient\CameraControlClient.vbproj", "{76CA1DD3-C813-4D3F-AC48-4EC10887A571}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViscaLibrary", "ViscaLibrary\ViscaLibrary.csproj", "{3B73123A-1559-4A0F-9198-D2E7C059F347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraControl", "CameraControl\CameraControl.csproj", "{B74B3FB1-A14B-4666-8711-0651BFEDF11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraControlClient", "CameraControlClient\CameraControlClient.csproj", "{ED72C635-B7AB-49B9-A859-B05CEEAC5E96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{76CA1DD3-C813-4D3F-AC48-4EC10887A571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76CA1DD3-C813-4D3F-AC48-4EC10887A571}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76CA1DD3-C813-4D3F-AC48-4EC10887A571}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76CA1DD3-C813-4D3F-AC48-4EC10887A571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B73123A-1559-4A0F-9198-D2E7C059F347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B73123A-1559-4A0F-9198-D2E7C059F347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B73123A-1559-4A0F-9198-D2E7C059F347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B73123A-1559-4A0F-9198-D2E7C059F347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74B3FB1-A14B-4666-8711-0651BFEDF11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74B3FB1-A14B-4666-8711-0651BFEDF11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74B3FB1-A14B-4666-8711-0651BFEDF11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74B3FB1-A14B-4666-8711-0651BFEDF11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED72C635-B7AB-49B9-A859-B05CEEAC5E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED72C635-B7AB-49B9-A859-B05CEEAC5E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED72C635-B7AB-49B9-A859-B05CEEAC5E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED72C635-B7AB-49B9-A859-B05CEEAC5E96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
