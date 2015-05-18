@@ -3,3 +3,7 @@ C:\git\ViscaLibrary\ViscaLibrary\bin\Debug\ViscaLibrary.pdb
 C:\git\ViscaLibrary\ViscaLibrary\obj\Debug\ViscaLibrary.dll
 C:\git\ViscaLibrary\ViscaLibrary\obj\Debug\ViscaLibrary.pdb
 C:\git\ViscaLibrary\ViscaLibrary\obj\Debug\ViscaLibrary.csprojResolveAssemblyReference.cache
+C:\git\RemoteControlClient\ViscaLibrary\bin\Debug\ViscaLibrary.dll
+C:\git\RemoteControlClient\ViscaLibrary\bin\Debug\ViscaLibrary.pdb
+C:\git\RemoteControlClient\ViscaLibrary\obj\Debug\ViscaLibrary.dll
+C:\git\RemoteControlClient\ViscaLibrary\obj\Debug\ViscaLibrary.pdb

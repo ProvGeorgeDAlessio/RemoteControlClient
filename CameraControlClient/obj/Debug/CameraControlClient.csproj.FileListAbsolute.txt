@@ -1,0 +1,16 @@
+C:\git\RemoteControlClient\CameraControlClient\bin\Debug\CameraControlClient.exe.config
+C:\git\RemoteControlClient\CameraControlClient\bin\Debug\CameraControlClient.exe
+C:\git\RemoteControlClient\CameraControlClient\bin\Debug\CameraControlClient.pdb
+C:\git\RemoteControlClient\CameraControlClient\bin\Debug\CameraControl.dll
+C:\git\RemoteControlClient\CameraControlClient\bin\Debug\ViscaLibrary.dll
+C:\git\RemoteControlClient\CameraControlClient\bin\Debug\CameraControl.pdb
+C:\git\RemoteControlClient\CameraControlClient\bin\Debug\ViscaLibrary.pdb
+C:\git\RemoteControlClient\CameraControlClient\obj\Debug\CameraControlClient.csprojResolveAssemblyReference.cache
+C:\git\RemoteControlClient\CameraControlClient\obj\Debug\MainWindow.baml
+C:\git\RemoteControlClient\CameraControlClient\obj\Debug\App.g.cs
+C:\git\RemoteControlClient\CameraControlClient\obj\Debug\CameraControlClient_MarkupCompile.cache
+C:\git\RemoteControlClient\CameraControlClient\obj\Debug\CameraControlClient.g.resources
+C:\git\RemoteControlClient\CameraControlClient\obj\Debug\CameraControlClient.Properties.Resources.resources
+C:\git\RemoteControlClient\CameraControlClient\obj\Debug\CameraControlClient.csproj.GenerateResource.Cache
+C:\git\RemoteControlClient\CameraControlClient\obj\Debug\CameraControlClient.exe
+C:\git\RemoteControlClient\CameraControlClient\obj\Debug\CameraControlClient.pdb
