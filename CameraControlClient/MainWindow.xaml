@@ -1,9 +1,9 @@
 ﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:CameraControl="clr-namespace:CameraControl;assembly=CameraControl"
-        Title="MainWindow" Width="500" Height="400">
+        Title="MainWindow" Width="506.216" Height="473.347">
     <Grid>
-        <CameraControl:CameraControl HorizontalAlignment="Left" Margin="57,96,0,-0.333" VerticalAlignment="Top"/>
+        <CameraControl:CameraControl HorizontalAlignment="Left" Margin="116,10,0,0" VerticalAlignment="Top" Height="409" Width="293"/>
 
         <!--<CameraControl:CameraControl HorizontalAlignment="Left" Margin="121,2,0,-0.333" VerticalAlignment="Top" Loaded="CameraControl_Loaded"/>-->
 

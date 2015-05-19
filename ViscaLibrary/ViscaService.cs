@@ -15,11 +15,6 @@ namespace ViscaLibrary
         //Serial 
         private SerialPort serialPort;
         public string ProlificPort { get; set; }
-        //public ViscaService()
-        //{
-
-
-        //}
         public void OpenPort()
         {
             if (serialPort != null && serialPort.IsOpen)
@@ -53,10 +48,6 @@ namespace ViscaLibrary
 
         private string GetProlificSerialPortName()
         {
-            //std::wstring REG_SW_GROUP_I_WANT = L"HARDWARE\\DEVICEMAP\\SERIALCOMM";
-            // const std::wstring REG_KEY_I_WANT = L"\\Device\\ProlificSerial0";
-            //  if (ERROR_SUCCESS != regKey.Open(HKEY_LOCAL_MACHINE, REG_SW_GROUP_I_WANT.c_str()))
-            //regKey.QueryStringValue(REG_KEY_I_WANT.c_str(), serialValue, &serialValueLength);
             string portName = "Com5";
             const string userRoot = "HKEY_LOCAL_MACHINE";
             RegistryKey key = Registry.LocalMachine.OpenSubKey("HARDWARE\\DEVICEMAP\\SERIALCOMM");
@@ -96,8 +87,6 @@ namespace ViscaLibrary
                 0x00, 0x00, 0x0E, 0x0C,
                 0x00,0x00,0x00,0x00,
                 0xFF };
-            //byte[] left = new byte[] { 0x81, 0x01, 0x06, 0x01, 0x0C, 0x0C, 0x01,0x03,0xFF }; // works
-            //SerialCmdSend(left);
             SerialCmdSend(command);
         }
         public void Right(byte[] command)
@@ -106,7 +95,6 @@ namespace ViscaLibrary
                 0x0F, 0x0F, 0x01, 0x04,
                 0x00, 0x00, 0x00, 0x00, 
                 0xFF };
-            //byte[] off = new byte[] { 0x81, 0x01, 0x04, 0x0, 0x02, 0xFF };
             SerialCmdSend(command);
         }
         public void Up(byte[] command)
@@ -122,18 +110,14 @@ namespace ViscaLibrary
 
         public void ZoomOut(byte[] command)
         {
-            //byte[] up = new byte[] { 0x81, 0x01, 0x06, 0x03, 0x0C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0E, 0x0C, 0xFF };
             SerialCmdSend(command);
         }
         public void ZoomIn(byte[] command)
         {
-            //byte[] up = new byte[] { 0x81, 0x01, 0x06, 0x03, 0x0C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0E, 0x0C, 0xFF };
             SerialCmdSend(command);
         }
         public byte[] SetPositionRelative(int pan, int tilt, int panSpeed, int tiltSpeed)
         {
-            //#define VISCA_SPEED_TILT_MAX	0x14 // Max tilt speed
-            //#define VISCA_SPEED_PAN_MAX		0x18 // Max pan speed
 
             int VISCA_SPEED_TILT_MAX = 0x14;
             int VISCA_SPEED_PAN_MAX = 0x18;
@@ -153,7 +137,7 @@ namespace ViscaLibrary
             {
                 tspd = VISCA_SPEED_TILT_MAX;
             }
-            // Make sure we have a pan/tilt camera, and it's okay to send
+            // Removed code to make sure we have a pan/tilt camera, and it's okay to send, since we know it's always PTZ
 
             int y1 = 0;
             int y2 = 0;
@@ -208,24 +192,7 @@ namespace ViscaLibrary
             z4 = 0x0f & tiltSteps;
 
             /* make package */
-            //unsigned char cm = VISCA_TILT_DRIVE_REL;	// use the relative position method
-            //unsigned char tm = VISCA_TERMINATOR;		// stop bit
             byte b = (byte)pspd;
-            //byte[] command = new byte[]
-            //{
-            //    0x81, 0x01, 0x06, 0x03, 
-            //    Convert.ToByte(pspd.ToString(), 16),
-            //    Convert.ToByte(tspd.ToString(), 16),
-            //    Convert.ToByte(y1.ToString(), 16),
-            //    Convert.ToByte(y2.ToString(), 16),
-            //    Convert.ToByte(y3.ToString(), 16),
-            //    Convert.ToByte(y4.ToString(), 16),
-            //    Convert.ToByte(z1.ToString(), 16),
-            //    Convert.ToByte(z2.ToString(), 16),
-            //    Convert.ToByte(z3.ToString(), 16),
-            //    Convert.ToByte(z4.ToString(), 16),
-            //    0xFF
-            //};
             byte[] command = new byte[]
             {
                 0x81, 0x01, 0x06, 0x03,
