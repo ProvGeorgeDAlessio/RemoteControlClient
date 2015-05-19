@@ -59,13 +59,10 @@ namespace CameraControl
         }
         private void up_up(object sender, RoutedEventArgs e)
         {
-            //ViscaService service = new ViscaService();
             mouseDownTimer.Stop();
         }
         private void up_down(object sender, RoutedEventArgs e)
         {
-            //service = new ViscaService();
-            //service.Left();
             CurrentCommand = service.SetPositionRelative(0, 2, 0, 24);
             service.Up(CurrentCommand);
             mouseDownTimer.Start();
@@ -73,24 +70,15 @@ namespace CameraControl
         }
         private void down_up(object sender, RoutedEventArgs e)
         {
-            //ViscaService service = new ViscaService();
             mouseDownTimer.Stop();
         }
         private void down_down(object sender, RoutedEventArgs e)
         {
-            //service = new ViscaService();
-            //service.Left();
             CurrentCommand = service.SetPositionRelative(0, -2, 0, 24);
             service.Down(CurrentCommand);
             mouseDownTimer.Start();
             e.Handled = true;
         }
-        //private void left_Click(object sender, RoutedEventArgs e)
-        //{
-        //   //ViscaService service = new ViscaService();
-        //    //MessageBox.Show(service.GetProlificPort());
-        //   service.Left();
-        //}
 
         private void mouseDownTimerTick(object sender, EventArgs e)
         {
@@ -110,28 +98,20 @@ namespace CameraControl
 
         private void left_up(object sender, RoutedEventArgs e)
         {
-            //ViscaService service = new ViscaService();
             mouseDownTimer.Stop();
         }
         private void right_up(object sender, RoutedEventArgs e)
         {
-            //ViscaService service = new ViscaService();
             mouseDownTimer.Stop();
         }
         private void right_down(object sender, RoutedEventArgs e)
         {
-            //service = new ViscaService();
-            //service.Left();
             CurrentCommand = service.SetPositionRelative(-10, 0, 24, 0);
             service.Right(CurrentCommand);
             mouseDownTimer.Start();
             e.Handled = true;
         }
 
-        //private void right_Click(object sender, RoutedEventArgs e)
-        //{
-        //    MessageBox.Show(string.Format(System.Globalization.CultureInfo.CurrentUICulture, "We are inside {0}.right_Click()", this.ToString()));
-        //}
         private void home_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show(string.Format(System.Globalization.CultureInfo.CurrentUICulture, "We are inside {0}.home_Click()", this.ToString()));
@@ -147,7 +127,6 @@ namespace CameraControl
 
         private void zoomin_up(object sender, RoutedEventArgs e)
         {
-            //ViscaService service = new ViscaService();
             mouseDownTimer.Stop();
         }
         private void zoomout_down(object sender, RoutedEventArgs e)
@@ -160,32 +139,22 @@ namespace CameraControl
 
         private void zoomout_up(object sender, RoutedEventArgs e)
         {
-            //ViscaService service = new ViscaService();
             mouseDownTimer.Stop();
         }
         private void on_Click(object sender, RoutedEventArgs e)
         {
-            //ViscaService service = new ViscaService();
-            //MessageBox.Show(service.GetProlificPort());
-
             service.On();
         }
         private void off_Click(object sender, RoutedEventArgs e)
         {
-            //ViscaService service = new ViscaService();
-            //MessageBox.Show(service.GetProlificPort());
             service.Off();
         }
         private void ClosePort_Click(object sender, RoutedEventArgs e)
         {
-            //ViscaService service = new ViscaService();
-            //MessageBox.Show(service.GetProlificPort());
             service.ClosePort();
         }
         private void OpenPort_Click(object sender, RoutedEventArgs e)
         {
-            //ViscaService service = new ViscaService();
-            //MessageBox.Show(service.GetProlificPort());
             service.OpenPort();
         }
     }
