@@ -9,7 +9,7 @@
              HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
              mc:Ignorable="d" 
              d:DesignHeight="390.129" d:DesignWidth="231.904">
- 
+
     <Grid Margin="10,-8,0,-58.667">
         <Grid.RowDefinitions>
             <RowDefinition Height="50" />
@@ -32,25 +32,29 @@
         </Grid.ColumnDefinitions>
         <Button Content="Left" Height="20" Grid.Row="2" Grid.Column="1"   Name="left" VerticalAlignment="Top" 
                 PreviewMouseDown="left_down" PreviewMouseUp="left_up"  Margin="8,0,7,0" />
-      
+
         <Button Content="Right" Height="20" Grid.Row="2" Grid.Column="3"  Name="right" VerticalAlignment="Top"
                 PreviewMouseDown="right_down" PreviewMouseUp="right_up" Margin="8,0,7,0" />
-        
+
         <Button Content="Up" Height="20" Grid.Row="1" Grid.Column="2"   Name="up" VerticalAlignment="Top" 
                 PreviewMouseDown="up_down" PreviewMouseUp="up_up" Margin="8,1,7,0" />
-        
+
         <Button Content="Down" Height="20" Grid.Row="3" Grid.Column="2"   Name="down" VerticalAlignment="Top" 
                 PreviewMouseDown="down_down" PreviewMouseUp="down_up"  Margin="8,0,7,0" />
-        
+
         <Button Content="Home" Height="20" Grid.Row="2" Grid.Column="2"   Name="home" VerticalAlignment="Top" Click="home_Click" RenderTransformOrigin="0.505,0.5" Margin="8,0,7,0" />
-        <Button Content="Zoom In" Height="20" Grid.Row="4" Grid.Column="1"   Name="zoomin" VerticalAlignment="Top" Click="zoomin_Click" Margin="10,11,5,0"  />
-        <Button Content="Zoom Out" Height="20" Grid.Row="4" Grid.Column="3"   Name="zoomout" VerticalAlignment="Top" Click="zoomout_Click" Margin="10,11,5,0"  />
+        <Button Content="Zoom In" Height="20" Grid.Row="4" Grid.Column="1"   Name="zoomin" VerticalAlignment="Top" 
+                PreviewMouseDown="zoomin_down" PreviewMouseUp="zoomin_up" Margin="0,10.667,38,0" Grid.ColumnSpan="2"  />
+        <Button Content="Zoom Out" Height="20" Grid.Row="4" Grid.Column="3"   Name="zoomout" VerticalAlignment="Top"
+                PreviewMouseDown="zoomout_down" PreviewMouseUp="zoomout_up" Margin="0,10.667,38,0" Grid.ColumnSpan="2"  />
         <Button Content="On" Height="20" Grid.Row="5" Grid.Column="1"   Name="on" VerticalAlignment="Top" Click="on_Click" Margin="10,11,5,0"  />
         <Button Content="Off" Height="20" Grid.Row="5" Grid.Column="3"   Name="off" VerticalAlignment="Top" Click="off_Click" Margin="10,11,5,0"  />
         <Border Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="5" BorderThickness="1" BorderBrush="Black"  >
             <TextBlock x:Name="Status"  HorizontalAlignment="Left" Margin="10,10,0,0"  TextWrapping="Wrap" Text="{Binding titleText}" VerticalAlignment="Top" Width="219"/>
         </Border>
         <Button Content="Close Port" Height="20" Grid.Row="7" Grid.Column="3"   Name="ClosePort" VerticalAlignment="Top" Click="ClosePort_Click" Margin="10,11,5,0"  />
+        <Button Content="Open Port" Height="20" Grid.Row="7" Grid.Column="1"   Name="OpenPort" VerticalAlignment="Top" Click="OpenPort_Click" Margin="10,11,5,0"  />
+
     </Grid>
-      
+
 </UserControl>

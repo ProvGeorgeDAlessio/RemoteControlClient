@@ -3,7 +3,7 @@
         xmlns:CameraControl="clr-namespace:CameraControl;assembly=CameraControl"
         Title="MainWindow" Width="500" Height="400">
     <Grid>
-        <CameraControl:CameraControl/>
+        <CameraControl:CameraControl HorizontalAlignment="Left" Margin="57,96,0,-0.333" VerticalAlignment="Top"/>
 
         <!--<CameraControl:CameraControl HorizontalAlignment="Left" Margin="121,2,0,-0.333" VerticalAlignment="Top" Loaded="CameraControl_Loaded"/>-->
 

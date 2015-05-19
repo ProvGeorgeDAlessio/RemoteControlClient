@@ -22,7 +22,7 @@ namespace CameraControlClient
     {
         public MainWindow()
         {
-           // InitializeComponent();
+            // InitializeComponent();
         }
 
         private void CameraControl_Loaded(object sender, RoutedEventArgs e)
@@ -30,6 +30,6 @@ namespace CameraControlClient
 
         }
 
-     
+
     }
 }
